@@ -1,0 +1,49 @@
+# Dependências
+node_modules/
+.pnp
+.pnp.js
+
+# Testes e relatórios do Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Relatórios e screenshots gerados pelo Bug Hunter
+reports/*.html
+reports/screenshots/*
+!reports/screenshots/.gitkeep
+!reports/README.md
+
+# Logs de execução e depuração
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Variáveis de ambiente e credenciais
+.env
+.env.local
+.env.*.local
+*.env
+
+# Sistema operacional
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# Editores e IDEs
+.idea/
+*.swp
+*.swo
+
+# VS Code (ignora preferências de usuário locais, mantém configs compartilhadas)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
